@@ -6,20 +6,20 @@
     - title: The Authentication Complexity of Byzantine Consensus
       year: 2026
       venue: Manuscript
-      summary: I model the initial distribution of verification keys as a directed graph and characterize which graphs support Byzantine agreement for a given fault bound.
+      summary: We specify which of initialization authentication setup is necessary that cannot be repalced by arbitrary interaction in solving Byzantine Consensus.
       links:
         - label: ePrint
           url: https://eprint.iacr.org/2026/2702
 
     - title: Byzantine Consensus in the Partially Authenticated Setting
-      id: podc26
+      id: podc2
       year: 2026
       venue: PODC
       coauthors:
         - Christoph Lenzen
         - Julian Loss
         - Benedikt Wagner
-      summary: We study how the number of registered public keys affects fault tolerance for Byzantine agreement and broadcast.
+      summary: We show *n+2s>3t* is sufficient in achieving broadcast when *s* parties are initially authenticated to all parties.
       links:
         - label: ePrint
           url: https://eprint.iacr.org/2026/470
@@ -31,7 +31,7 @@
       coauthors:
         - Christoph Lenzen
         - Julian Loss
-
+      summary: Do we need fresh keys when the adversary pre-signed messages with signing keys?
 - id: omissions
   title: Omission Faults
   papers:
@@ -42,7 +42,7 @@
         - Simon Holmgaard Kamp
         - Julian Loss
         - Kartik Nayak
-      summary: Our protocol tolerates Byzantine and omission faults with expected quadratic communication. It takes a constant number of rounds in expectation when a constant fraction of parties are fault-free.
+      summary: We build an efficient Byzantine Agreement protocol with omission faults.
       links:
         - label: ePrint
           url: https://eprint.iacr.org/2025/2006
@@ -70,7 +70,7 @@
       venue: Manuscript
       coauthors:
         - Renas Bacho
-      summary: Our deterministic broadcast protocol stops within min{*f* + 3, *t* + 1} rounds with a plain public-key infrastructure, even when a majority may be corrupt.
+      summary: Our deterministic broadcast protocol achieves the optimal round complexity min{*f* + 3, *t* + 1} with a dishonest majority.
       links:
         - label: ePrint
           url: https://eprint.iacr.org/2026/2883
@@ -79,3 +79,4 @@
       venue: Manuscript
       coauthors:
         - Renas Bacho
+      summary:Our deterministic broadcast protocol achievs round complexity O(*f*) with a dishonest majority, which is optimal up to a constant.
