@@ -1,0 +1,16 @@
+<section class="band" id="contact" aria-labelledby="contact-heading">
+  <div class="wrap section-inner">
+    <h2 id="contact-heading">Contact</h2>
+    <div class="contact-grid">
+      <div><h3>Email</h3><a href="mailto:{{ profile.email | escape }}">{{ profile.email | escape }}</a></div>
+      <div>
+        <h3>Academic profiles</h3>
+        <div class="profile-links">
+          {% for external_profile in profile.profiles %}
+          <a href="{{ external_profile[1] | escape }}">{{ external_profile[0] | upcase | escape }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

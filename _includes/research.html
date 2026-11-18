@@ -1,0 +1,23 @@
+<section class="band" id="research" aria-labelledby="research-heading">
+  <div class="wrap section-inner">
+    <h2 id="research-heading">Research</h2>
+    <div class="research-grid">
+      <article class="card">
+        <h3>Current questions</h3>
+        <ul class="questions">
+          {% for question in profile.questions %}
+          <li>{{ question | escape }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Background</h3>
+        <div class="background-copy">
+          {% for paragraph in profile.background %}
+          {{ paragraph | markdownify }}
+          {% endfor %}
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

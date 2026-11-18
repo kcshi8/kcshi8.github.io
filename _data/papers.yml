@@ -1,0 +1,81 @@
+# The first category is featured. List each paper's coauthors in publication order.
+# The title links to the first item in links. Omit links when no public URL is available.
+- id: authentication
+  title: Authentication and Distributed Consensus
+  papers:
+    - title: The Authentication Complexity of Byzantine Consensus
+      year: 2026
+      venue: Manuscript
+      summary: I model the initial distribution of verification keys as a directed graph and characterize which graphs support Byzantine agreement for a given fault bound.
+      links:
+        - label: ePrint
+          url: https://eprint.iacr.org/2026/2702
+
+    - title: Byzantine Consensus in the Partially Authenticated Setting
+      id: podc26
+      year: 2026
+      venue: PODC
+      coauthors:
+        - Christoph Lenzen
+        - Julian Loss
+        - Benedikt Wagner
+      summary: We study how the number of registered public keys affects fault tolerance for Byzantine agreement and broadcast.
+      links:
+        - label: ePrint
+          url: https://eprint.iacr.org/2026/470
+        - label: Proceedings
+          url: https://doi.org/10.1145/3796701.3815929
+
+    - title: Fresh Signatures without Fresh Keys
+      venue: Manuscript
+      coauthors:
+        - Christoph Lenzen
+        - Julian Loss
+
+- id: omissions
+  title: Omission Faults
+  papers:
+    - title: "OmniBA: Round-Efficient BA with Quadratic Communication under Mixed Faults"
+      year: 2026
+      venue: FC
+      coauthors:
+        - Simon Holmgaard Kamp
+        - Julian Loss
+        - Kartik Nayak
+      summary: Our protocol tolerates Byzantine and omission faults with expected quadratic communication. It takes a constant number of rounds in expectation when a constant fraction of parties are fault-free.
+      links:
+        - label: ePrint
+          url: https://eprint.iacr.org/2025/2006
+        - label: Conference program
+          url: https://fc26.ifca.ai/program.html
+
+    - title: Consensus in the Presence of Overlapping Faults and Total Omission
+      year: 2024
+      venue: TCC
+      coauthors:
+        - Julian Loss
+        - Gilad Stern
+      summary: We give an agreement protocol for overlapping send and receive faults and study what agreement can guarantee when every party may experience omissions.
+      links:
+        - label: ePrint
+          url: https://eprint.iacr.org/2024/807
+        - label: Proceedings
+          url: https://doi.org/10.1007/978-3-031-78011-0_12
+
+- id: early-stopping
+  title: Early Stopping
+  papers:
+    - title: Early-Stopping Dishonest Majority Broadcast with Optimal Round Complexity
+      year: 2026
+      venue: Manuscript
+      coauthors:
+        - Renas Bacho
+      summary: Our deterministic broadcast protocol stops within min{*f* + 3, *t* + 1} rounds with a plain public-key infrastructure, even when a majority may be corrupt.
+      links:
+        - label: ePrint
+          url: https://eprint.iacr.org/2026/2883
+
+    - title: Early-Stopping Dishonest Majority Broadcast with Linear Rounds and Polynomial Communication
+      venue: Manuscript
+      coauthors:
+        - Renas Bacho

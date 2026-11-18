@@ -1,0 +1,21 @@
+<section class="wrap hero" aria-labelledby="name">
+  <div class="intro">
+    <p class="field">{{ profile.field | escape }}</p>
+    <h1 id="name">{{ profile.name | escape }}</h1>
+    <p class="appointment">{{ profile.role | escape }}</p>
+    <p class="bio">{{ profile.intro | escape }}</p>
+    <ul class="tags" aria-label="Research interests">
+      {% for topic in site.data.papers %}
+      <li><a href="#{{ topic.id | escape }}">{{ topic.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
+    <div class="actions">
+      <a class="button primary" href="#publications">Research papers <span aria-hidden="true">↓</span></a>
+      <a class="button" href="{{ profile.cv | relative_url | escape }}" download>Download CV <span aria-hidden="true">↓</span></a>
+    </div>
+  </div>
+  <figure class="portrait">
+    <img src="{{ profile.photo.path | relative_url | escape }}" width="1450" height="967" alt="{{ profile.photo.alt | escape }}">
+    <figcaption>Photographed by <a href="{{ profile.photo.credit_url | escape }}">{{ profile.photo.credit | escape }}</a></figcaption>
+  </figure>
+</section>

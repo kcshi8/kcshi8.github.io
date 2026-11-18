@@ -1,0 +1,36 @@
+name: Kecheng Shi
+initials: ks
+field: Cryptography & distributed computing
+role: PhD student at CISPA and Saarland University
+intro: >-
+  I study how authentication changes what is possible in distributed consensus.
+  Who needs to know whose verification key, and how much initial authentication
+  does agreement require? I also work on agreement with omission faults and on
+  broadcast protocols that stop early when few parties fail.
+
+questions:
+  - What can digital signatures achieve when only some parties have registered keys?
+  - When is agreement possible if a party can miss both incoming and outgoing messages?
+  - How quickly can a protocol terminate when fewer faults occur than it was designed to tolerate?
+
+# Each list item is one paragraph. Use [link text](https://...) for a link.
+background:
+  - >-
+    I am a doctoral student at [Saarland University](https://www.uni-saarland.de/en/home.html)
+    and the CISPA Helmholtz Center for Information Security, advised by
+    [Julian Loss](https://www.julianloss.com/students/advising).
+  - >-
+    Before joining CISPA in 2023, I studied mathematics at the Southern University
+    of Science and Technology in Shenzhen, where I later worked as a research assistant.
+
+email: kcshi97@gmail.com
+profiles:
+  dblp: https://dblp.org/pid/270/3558-1.html
+  orcid: https://orcid.org/0009-0008-2030-3339
+
+photo:
+  path: /assets/kecheng-shi.jpg
+  alt: Kecheng Shi standing by a river in front of historic waterfront buildings.
+  credit: Sihang Pu
+  credit_url: https://sihangpu.uk/
+cv: /assets/Kecheng-Shi-CV.pdf
