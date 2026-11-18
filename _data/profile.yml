@@ -8,7 +8,7 @@ advisor:
 intro: >-
   I study cryptography and distributed consensus.
   I'm interested in feasibility of distributed computing influenced from different perspectives,
-  including authentication setups, powers of the adversary and requirement of given tasks.
+  including authentication setups, powers of the adversary and goals of the given tasks.
 
 questions:
   - What is the feasibility condition when each party is only authenticated to some of parties?
