@@ -6,10 +6,9 @@ advisor:
   name: Julian Loss
   url: https://www.julianloss.com/
 intro: >-
-  I study how authentication changes what is possible in distributed consensus.
-  Who needs to know whose verification key, and how much initial authentication
-  does agreement require? I also work on agreement with omission faults and on
-  broadcast protocols that stop early when few parties fail.
+  I study how authentication changes feasibility in distributed consensus.
+  I'm interested in feasibility of distributed computing influenced from different perspectives,
+  including authentication setups, powers of the adversary and requirement of given tasks.
 
 questions:
   - What can digital signatures achieve when only some parties have registered keys?
@@ -19,11 +18,11 @@ questions:
 # Each list item is one paragraph. Use [link text](https://...) for a link.
 background:
   - >-
-    I am a doctoral student at [Saarland University](https://www.uni-saarland.de/en/home.html)
+    I am a forth-year doctoral student at [Saarland University](https://www.uni-saarland.de/en/home.html)
     and the CISPA Helmholtz Center for Information Security.
   - >-
-    Before joining CISPA in 2023, I studied mathematics at the Southern University
-    of Science and Technology in Shenzhen, where I later worked as a research assistant.
+    Before joining CISPA in 2023, I obtained master degree in mathematics at the Southern University
+    of Science and Technology in Shenzhen, where I later worked as a research assistant studying class field theory.
 
 email: kcshi97@gmail.com
 profiles:
