@@ -2,7 +2,7 @@ Away from research, I play chess(https://ratings.fide.com/profile/8608253) with 
 
 ### Games I play
 
-- **League of Legends** — Top line only, Master with 300 LP (Europe, S14)
+- **League of Legends** — Top lane, Master with 300 LP (Western Europe, S14)
 - **EA SPORTS FC 25** — Elite Division
 - **Hearthstone** — Legendary
 - **Mahjong Soul** — Master (雀豪)
