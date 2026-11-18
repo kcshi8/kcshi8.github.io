@@ -79,4 +79,4 @@
       venue: Manuscript
       coauthors:
         - Renas Bacho
-      summary:Our deterministic broadcast protocol achievs round complexity O(*f*) with a dishonest majority, which is optimal up to a constant.
+      summary: Our deterministic broadcast protocol achievs round complexity O(*f*) with a dishonest majority, which is optimal up to a constant.
