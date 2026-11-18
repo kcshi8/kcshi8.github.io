@@ -6,13 +6,13 @@ advisor:
   name: Julian Loss
   url: https://www.julianloss.com/
 intro: >-
-  I study how authentication changes feasibility in distributed consensus.
+  I study cryptography and distributed consensus.
   I'm interested in feasibility of distributed computing influenced from different perspectives,
   including authentication setups, powers of the adversary and requirement of given tasks.
 
 questions:
-  - What can digital signatures achieve when only some parties have registered keys?
-  - When is agreement possible if a party can miss both incoming and outgoing messages?
+  - What is the feasibility condition when each party is only authenticated to some of parties?
+  - When is agreement possible if a party can drop incoming and outgoing messages?
   - How quickly can a protocol terminate when fewer faults occur than it was designed to tolerate?
 
 # Each list item is one paragraph. Use [link text](https://...) for a link.
