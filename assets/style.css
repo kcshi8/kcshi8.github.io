@@ -82,6 +82,10 @@ h3 { font-size: 1.14rem; line-height: 1.45; letter-spacing: -.023em; }
 .resources,.profile-links { flex-wrap: wrap; gap: 17px; }
 .resources { margin-top: 8px; }
 .resources a { font-size: .86rem; text-decoration: underline; }
+.service h3 { margin-top: 20px; }
+.service ul { margin: 10px 0 0; padding: 0; list-style: none; color: var(--body); }
+.service li + li { margin-top: 4px; }
+.service li strong { display: inline-block; min-width: 4em; font-variant-numeric: tabular-nums; }
 .personal { border-top: 1px solid var(--rule); }
 .personal p { margin-top: 15px; max-width: 65ch; color: var(--body); }
 .personal h3 { margin-top: 22px; }
@@ -115,9 +119,9 @@ footer { padding-block: 24px; color: var(--body); font-size: .88rem; }
   h2 { font-size: 1.75rem; }
   .contact-grid { grid-template-columns: 1fr; gap: 16px; }
 }
-@media (max-width: 350px) {
+@media (max-width: 440px) {
   .topbar { flex-wrap: wrap; justify-content: flex-start; padding-block: 8px; gap: 2px 12px; }
-  .navlinks { gap: 10px; }
+  .navlinks { flex-wrap: wrap; gap: 0 10px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print {
