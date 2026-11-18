@@ -6,9 +6,10 @@
 | --- | --- |
 | 姓名、职位、导师及其主页、首页简介、研究问题、学术背景、邮箱、学术档案链接、摄影署名 | [个人资料](_data/profile.yml) |
 | 论文标题、作者、年份、会议、ePrint、分组与排序 | [论文列表](_data/papers.yml) |
+| 个人爱好、FIDE 主页、等级分和游戏段位 | [Personal 栏目](_includes/personal.md)，直接修改文字即可。每项游戏单独一行，以 `- ` 开头 |
 | 颜色、字号、间距和手机布局 | [样式表](assets/style.css) |
 | CV 或照片 | 在 [assets 文件夹](assets/) 中通过 **Add file → Upload files** 上传同名的 `Kecheng-Shi-CV.pdf` 或 `kecheng-shi.jpg`；换文件名时也更新个人资料中的路径 |
-| 顶部导航、板块顺序 | [index.html](index.html) 里的导航及四行 `include` |
+| 顶部导航、板块顺序 | [index.html](index.html) 里的导航及 `main` 中的板块顺序 |
 | 某个板块的 HTML 排版 | [_includes 文件夹](_includes/)，每个文件对应一个板块 |
 
 ## 添加或更新论文

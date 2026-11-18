@@ -20,6 +20,7 @@ layout: none
       <div class="navlinks">
         <a href="#research">Research</a>
         <a href="#publications">Papers</a>
+        <a href="#personal">Personal</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -28,6 +29,13 @@ layout: none
     {% include profile.html %}
     {% include research.html %}
     {% include papers.html %}
+    <section id="personal" aria-labelledby="personal-heading">
+      <div class="wrap section-inner personal">
+        <h2 id="personal-heading">Personal</h2>
+        {% capture personal_copy %}{% include personal.md %}{% endcapture %}
+        {{ personal_copy | markdownify }}
+      </div>
+    </section>
     {% include contact.html %}
   </main>
   <footer class="wrap"><span>{{ profile.name | escape }}</span><a href="#top">Back to top ↑</a></footer>

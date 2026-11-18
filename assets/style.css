@@ -82,6 +82,12 @@ h3 { font-size: 1.14rem; line-height: 1.45; letter-spacing: -.023em; }
 .resources,.profile-links { flex-wrap: wrap; gap: 17px; }
 .resources { margin-top: 8px; }
 .resources a { font-size: .86rem; text-decoration: underline; }
+.personal { border-top: 1px solid var(--rule); }
+.personal p { margin-top: 15px; max-width: 65ch; color: var(--body); }
+.personal h3 { margin-top: 22px; }
+.personal ul { padding-left: 20px; margin: 8px 0 0; color: var(--body); }
+.personal li + li { margin-top: 3px; }
+.personal li::marker { color: var(--teal); }
 .contact-grid { grid-template-columns: 1fr 1fr; }
 .contact-grid h3 { font-size: .94rem; margin-bottom: 6px; }
 footer { padding-block: 24px; color: var(--body); font-size: .88rem; }
