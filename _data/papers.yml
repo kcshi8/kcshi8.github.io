@@ -19,7 +19,7 @@
         - Christoph Lenzen
         - Julian Loss
         - Benedikt Wagner
-      summary: We show *n+2s>3t* is sufficient in achieving broadcast when *s* parties are initially authenticated to all parties.
+      summary: We show *n+2s>3t* is sufficient in achieving broadcast when *s* parties (including the sender) are initially authenticated to all parties.
       links:
         - label: ePrint
           url: https://eprint.iacr.org/2026/470
@@ -79,4 +79,4 @@
       venue: Manuscript
       coauthors:
         - Renas Bacho
-      summary: Our deterministic broadcast protocol achievs round complexity O(*f*) with a dishonest majority, which is optimal up to a constant.
+      summary: Our deterministic broadcast protocol achieves round complexity O(*f*) with a dishonest majority, which is optimal up to a constant.
