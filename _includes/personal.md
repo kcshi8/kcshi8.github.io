@@ -1,4 +1,4 @@
-Away from research, I play multiple and watch football. I have chess elo (https://ratings.fide.com/profile/8608253) 2177 with a recent interest shift to Chess 960, where I enjoyed my first chess 960 game in the Grenke Chess Open 2026.
+Away from research, I play multiple and watch football. I play chess(https://ratings.fide.com/profile/8608253) with a recent interest shift to the variant Chess 960, where I enjoyed my first chess 960 game in the Grenke Chess Open 2026.
 
 ### Games I play
 
