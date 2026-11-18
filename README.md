@@ -4,7 +4,7 @@
 
 | 想修改的内容 | 对应文件 |
 | --- | --- |
-| 姓名、职位、首页简介、研究问题、学术背景、邮箱、学术档案链接、摄影署名 | [个人资料](_data/profile.yml) |
+| 姓名、职位、导师及其主页、首页简介、研究问题、学术背景、邮箱、学术档案链接、摄影署名 | [个人资料](_data/profile.yml) |
 | 论文标题、作者、年份、会议、ePrint、分组与排序 | [论文列表](_data/papers.yml) |
 | 颜色、字号、间距和手机布局 | [样式表](assets/style.css) |
 | CV 或照片 | 在 [assets 文件夹](assets/) 中通过 **Add file → Upload files** 上传同名的 `Kecheng-Shi-CV.pdf` 或 `kecheng-shi.jpg`；换文件名时也更新个人资料中的路径 |

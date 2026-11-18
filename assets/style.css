@@ -34,6 +34,7 @@ header { position: sticky; top: 0; z-index: 3; border-bottom: 1px solid var(--ru
 .field { color: var(--teal); font-weight: 650; font-size: .93rem; }
 h1 { margin: 14px 0; font-size: clamp(3rem,5.3vw,4.2rem); line-height: 1.03; letter-spacing: -.057em; }
 .appointment { font-size: 1.19rem; font-weight: 650; line-height: 1.45; letter-spacing: -.017em; }
+.advisor { margin-top: 3px; color: var(--body); font-size: 1rem; }
 .bio { margin-top: 17px; max-width: 59ch; font-size: 1.06rem; line-height: 1.73; color: var(--body); }
 .tags { flex-wrap: wrap; list-style: none; padding: 0; gap: 7px; margin: 22px 0 0; }
 .tags li { color: #255d53; border: 1px solid #cbded6; background: #eff7f2; border-radius: 99px; padding: 4px 10px; font-size: .8rem; }

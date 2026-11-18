@@ -2,6 +2,9 @@ name: Kecheng Shi
 initials: ks
 field: Cryptography & distributed computing
 role: PhD student at CISPA and Saarland University
+advisor:
+  name: Julian Loss
+  url: https://www.julianloss.com/
 intro: >-
   I study how authentication changes what is possible in distributed consensus.
   Who needs to know whose verification key, and how much initial authentication
@@ -17,8 +20,7 @@ questions:
 background:
   - >-
     I am a doctoral student at [Saarland University](https://www.uni-saarland.de/en/home.html)
-    and the CISPA Helmholtz Center for Information Security, advised by
-    [Julian Loss](https://www.julianloss.com/students/advising).
+    and the CISPA Helmholtz Center for Information Security.
   - >-
     Before joining CISPA in 2023, I studied mathematics at the Southern University
     of Science and Technology in Shenzhen, where I later worked as a research assistant.

@@ -3,6 +3,7 @@
     <p class="field">{{ profile.field | escape }}</p>
     <h1 id="name">{{ profile.name | escape }}</h1>
     <p class="appointment">{{ profile.role | escape }}</p>
+    <p class="advisor">Advised by <a href="{{ profile.advisor.url | escape }}">{{ profile.advisor.name | escape }}</a></p>
     <p class="bio">{{ profile.intro | escape }}</p>
     <ul class="tags" aria-label="Research interests">
       {% for topic in site.data.papers %}
