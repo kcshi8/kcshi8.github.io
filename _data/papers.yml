@@ -35,6 +35,17 @@
 - id: omissions
   title: Omission Faults
   papers:
+    - title: "Probabilistic Polynomial Time is a healer: Consensus with Mobile-Omission Faults"
+      year: 2026
+      venue: Manuscript
+      coauthors:
+        - Julian Loss
+        - Kartik Nayak
+      summary: We give a randomized Byzantine agreement protocol for *2t + s + r < n* when the adversary can change which parties suffer send or receive omissions in every round.
+      links:
+        - label: ePrint
+          url: https://eprint.iacr.org/2026/2990
+
     - title: "OmniBA: Round-Efficient BA with Quadratic Communication under Mixed Faults"
       year: 2026
       venue: FC
@@ -76,7 +87,11 @@
           url: https://eprint.iacr.org/2026/2883
 
     - title: Early-Stopping Dishonest Majority Broadcast with Linear Rounds and Polynomial Communication
+      year: 2026
       venue: Manuscript
       coauthors:
         - Renas Bacho
       summary: Our deterministic broadcast protocol achieves round complexity O(*f*) with a dishonest majority, which is optimal up to a constant factor.
+      links:
+        - label: ePrint
+          url: https://eprint.iacr.org/2026/2923
