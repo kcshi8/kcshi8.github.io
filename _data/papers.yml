@@ -59,8 +59,6 @@
           url: https://doi.org/10.1007/978-3-032-36697-9_22
         - label: ePrint
           url: https://eprint.iacr.org/2025/2006
-        - label: Conference program
-          url: https://fc26.ifca.ai/program.html
 
     - title: Consensus in the Presence of Overlapping Faults and Total Omission
       year: 2024
