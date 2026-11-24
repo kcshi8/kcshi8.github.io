@@ -46,7 +46,7 @@
         - label: ePrint
           url: https://eprint.iacr.org/2026/2990
 
-    - title: "OmniBA: Round-Efficient BA with Quadratic Communication under Mixed Faults"
+    - title: "OmniBA: Round-Efficient BA with Quadratic Communication Under Mixed Faults"
       year: 2026
       venue: FC
       coauthors:
@@ -55,6 +55,8 @@
         - Kartik Nayak
       summary: We build an efficient Byzantine Agreement protocol with omission faults.
       links:
+        - label: Proceedings
+          url: https://doi.org/10.1007/978-3-032-36697-9_22
         - label: ePrint
           url: https://eprint.iacr.org/2025/2006
         - label: Conference program
